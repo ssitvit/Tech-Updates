@@ -8,7 +8,7 @@ fetch(githubUrl+"orgs/ieeessitvit/repos?sort=created&direction=desc")
 		<div class="project-card">
 			<div>
 			<div class="project-name">${repos[j].name}</div>
-			<small>Last updated:<br> <span class="updated">${repos[j].updated_at}</span></small>
+			<small>Last updated: <span class="updated">${repos[j].updated_at.substring(0,10)}</span></small>
 			<div class="project-desc">${repos[j].description || ''}</div>
 			</div>
 			<a class="repo-link" href=${repos[j].html_url}>Go to repo</a>

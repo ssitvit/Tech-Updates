@@ -128,7 +128,6 @@ html,body {
 }
 
 .notice-bar {
-    width: 100%;
     background-color: #FFF;
     border: 2px solid var(--primary);
     border-radius: 24px;
