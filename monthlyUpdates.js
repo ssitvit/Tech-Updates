@@ -1,3 +1,8 @@
+var d = new Date();
+var monthName = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+document.getElementById("month").innerHTML = (monthName[d.getMonth()] + " Updates");
+
+
 var monthlyUpdates = [
     {
         "announcement": "Announcement"
