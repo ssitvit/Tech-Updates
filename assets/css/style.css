@@ -110,17 +110,16 @@ html,body {
 }
 
 .archive {
-    background-color: var(--primary);
-    border: 2px solid var(--primary);
-    border-radius: 24px;
-    margin: 0.5em;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    color:#FFF;
-    font-size: 1.2rem;
-    font-weight: 600;
     display: inline-block;
-    cursor: pointer;
+    border: 2px solid var(--primary);
+    border-radius: 8px;
+    margin: 0.2em 1em;
+    padding: 0.5em 0.8em;
+    font-size: 18px;
+    border-radius: 24px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary);
 }
 
 .archive-bars {
@@ -146,7 +145,7 @@ html,body {
 .footer{
     height: 50px;
     margin-top: 40px;
-    padding: 0 10%;
+    padding: 0 20%;
     background-color: #FFF;
     border-top: 1px solid #c4c4c4;
     /* box-shadow: 0 -4px 12px -2px rgba(0,0,0,0.3); */
@@ -155,16 +154,13 @@ html,body {
 .social {
     float: right;
     overflow: hidden;
-    margin: 0.4em 0.2em 0;
+    margin: 0.5em 0.2em 0;
+    padding: 4px;
     height: 24px;
     width: 24px;
+    border: 1px solid var(--primary);
     border-radius: 50%;
 }
-
-.material-icons {
-    color: var(--primary);
-}
-
 
 @media (max-width: 600px) {
     .navbar {
