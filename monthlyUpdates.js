@@ -21,9 +21,12 @@ var monthlyUpdates = [
     }
 ]
 
+const updates = document.getElementById('updates')
 var i;
 for (i = 0; i < monthlyUpdates.length; i++) {
-    var identity = "text" + i;
-    document.getElementById(identity).innerHTML = monthlyUpdates[i].announcement;
+    const announcement = document.createElement('div')
+    announcement.className = 'notice-bar'
+    announcement.textContent = monthlyUpdates[i].announcement
+    updates.appendChild(announcement)
 }
 
