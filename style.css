@@ -126,12 +126,15 @@ html,body {
     float: right;
     overflow: hidden;
     margin: 0.4em 0.2em 0;
-    padding: 4px;
     height: 24px;
     width: 24px;
-    border: 1px solid var(--primary);
     border-radius: 50%;
 }
+
+.material-icons {
+    color: var(--primary);
+}
+
 
 @media (max-width: 600px) {
     .navbar {
