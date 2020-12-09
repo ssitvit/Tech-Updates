@@ -55,32 +55,35 @@ html,body {
     height: 36px;
     margin: 8px auto 0;
 }
+
 .see-more:focus {
     outline: none;
 }
 
 .project-card {
-    height: 240px;
-    width: 180px;
-    border: 1px solid var(--primary);
+    height: 220px;
+    width: 320px;
+    border: 2px solid var(--primary);
     border-radius: 2px;
     margin: 8px;
     background-color: #FFF;
-    overflow: hidden;
     cursor: pointer;
     padding: 0.5em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .project-card:hover {
+    transition: 0.5s;
     box-shadow: 0 0px 12px 0px rgba(0,0,0,0.3);
+    transform: scale(1.5);
 }
 
-.project-card:hover .project-img-div {
-    margin-top: -50%;
-    transition: ease-out 0.5s;
+.project-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.other-data {
+    width: 49%;
 }
 
 .project-name {
@@ -93,14 +96,40 @@ html,body {
     margin-top: 0.4em;
 }
 
+.repo-info {
+    width: 49%;
+    padding: 0.2em;
+    margin: 0.4em 0;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.3) ;
+    box-shadow: 0 -1px 12px rgba(0,0,0,0.3);
+}
+
+/* .languages {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.stars,.forks, .lang {
+    display: inline-block;
+    background-color: var(--primary);
+    color: white;
+    padding: 0.1em 0.5em 0.2em;
+    margin: 2px;
+    border-radius: 12px;
+}
+
 .repo-link {
     text-decoration: none;
     color: var(--primary);
     border: 2px solid var(--primary);
     text-align: center;
-    padding: 0 0.3em 0.2em;
-    border-radius: 16px;
-    display: block;
+    padding: 8px 10px;
+    border-radius: 0 8px 8px 0;
+    height: 32px;
+    background-color: white;
+    margin-right: -43px;
+    margin-top: -10px;
 }
 
 .repo-link:hover {
@@ -128,6 +157,7 @@ html,body {
 }
 
 .notice-bar {
+    width: 80%;
     background-color: #FFF;
     border: 2px solid var(--primary);
     border-radius: 24px;
@@ -142,12 +172,18 @@ html,body {
 }
 
 .footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     height: 50px;
     margin-top: 40px;
-    padding: 0 20%;
     background-color: #FFF;
     border-top: 1px solid #c4c4c4;
     /* box-shadow: 0 -4px 12px -2px rgba(0,0,0,0.3); */
+}
+
+.socials {
+    margin-right: 10%;
 }
 
 .social {
@@ -170,5 +206,9 @@ html,body {
     }
     .footer {
         padding: 0 4%;
+    }
+    .project-card:hover {
+        transition: 0.5s;
+        box-shadow: 0 0px 12px 0px rgba(0,0,0,0.3);
     }
 }
