@@ -75,7 +75,7 @@ html,body {
 .project-card:hover {
     transition: 0.5s;
     box-shadow: 0 0px 12px 0px rgba(0,0,0,0.3);
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .project-data {
