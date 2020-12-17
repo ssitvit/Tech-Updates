@@ -1,5 +1,5 @@
 const githubUrl = "https://api.github.com/"
-fetch(githubUrl+"orgs/ieeessitvit/repos?sort=created&direction=desc")
+fetch(githubUrl+"orgs/ieeessitvit/repos?sort=updated&direction=desc")
 .then(async (res) => {
 	const projects = document.getElementById('projects')
 	projects.innerHTML = 'Loading...'

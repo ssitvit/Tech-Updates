@@ -5,19 +5,19 @@ document.getElementById("month").innerHTML = (monthName[d.getMonth()] + " Update
 
 var monthlyUpdates = [
     {
-        "announcement": "Announcement"
+        "announcement": "Tech Team is recruiting !!!"
     },
     {
-        "announcement": "Announcement"
+        "announcement": "Two android projects have started."
     },
     {
-        "announcement": "Announcement"
+        "announcement": "Cool Github projects on the way."
     },
     {
-        "announcement": "Announcement"
+        "announcement": "Project for farmers is being made."
     },
     {
-        "announcement": "Announcement"
+        "announcement": "Covid project of data science completed!"
     }
 ]
 
