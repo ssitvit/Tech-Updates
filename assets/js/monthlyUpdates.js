@@ -8,16 +8,16 @@ var monthlyUpdates = [
         "announcement": "We welcome the new recruits in SSIT! 🧑‍💻 👩‍💻"
     },
     {
-        "announcement": "Successfully completed GitMash 🎮"
+        "announcement": "Accomplishment 🎉: GitMash 🎮"
     },
     {
-        "announcement": "App Dev Projects on the way 🏄🏻‍♂️"
+        "announcement": "Accomplishment 🎉: Data Science project of COVID-19"
     },
     {
-        "announcement": "Project for farmers is being made."
+        "announcement": "Ongoing 🏃‍♂️: App Dev Projects"
     },
     {
-        "announcement": "Accomplishment: Data Science project of COVID-19"
+        "announcement": "Ongoing 🏃‍♂️: Farmer's Marketplace"
     }
 ]
 
