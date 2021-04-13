@@ -17,6 +17,7 @@ The source code of this project is written in **`HTML/CSS/JS`**. So, you do not 
 - [ Dhairya Ostwal ](https://github.com/dhairyaostwal)
 - [ Gunjan Raj Tiwari ](https://github.com/)
 - [ Sandesh Dhungana ](https://github.com/)
+- [Alok Mathur ](https://github.com/)
 
 
 ---------
