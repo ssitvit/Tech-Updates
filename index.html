@@ -3,43 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>SSIT Tech Updates</title>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://unpkg.com/css-doodle@0.14.2/css-doodle.min.js"></script>
 
-    <link rel="shortcut icon" href="./assets/img/logo.png">
-
+    <link rel="shortcut icon" href="./assets/img/apple-touch-icon.png">
+   <!-- <link rel="stylesheet" href="style1.1.css">-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700;800&display=swap" rel="stylesheet">
+   
 </head>
-<body>
-    <nav class="navbar">
-        <img class="logo" src="./assets/img/logo.png" alt="SSIT LOGO">
+<body >
+    <css-doodle grid="5" class="doodle">
+        :doodle {
+          @grid: 20 / 100vmax;
+          grid-gap: 4vmax;
+        }
+        
+        background: #26C6DA;
+        transform: scale(@rand(.1, .9)) translate3d(@r(50px), @r(100px), 0);
+        background: hsla(@r(360), 85%, @r(70%, 90%), @r(.9));
+        border-radius: @r(10px);
+    </css-doodle>
+    
+    <nav class="navbar" style="margin-bottom: 38px;">
+        <img class="logo" src="./assets/img/ssit_img-removebg-preview.png"  style="width:auto; height:9vh;bottom: 0" align="center" alt="SSIT LOGO">
     </nav>
     <div class="container">
         <div class="projects">
-            <h2 class="title">Work in progress</h2>
-            <div id="projects" class="cards">
+            <h2 class="title" style="font-family: 'Merriweather Sans', sans-serif;">Work in progress🔨</h2>
+            <div id="projects" class="cards" style="margin-bottom: 38px; margin-top: 30px;" >
                 
             </div>
-            <button id="see-more" onclick="seeMore()" class="see-more">See More</button>
+            <button id="see-more" onclick="seeMore()" class="see-more" style="margin-bottom: 25px;">See More</button>
         </div>
         <div id="repos" class="archive-bars">
         </div>
-        <div id="updates" class="updates">
+        <div id="updates" class="updates"style="margin-top:25px; margin-bottom: 20px; font-family: 'Merriweather Sans', sans-serif;">
             <h2 class="title" id="month"></h2>
         </div>
     </div>
     <div class="footer">
-        <i class="fas fa-globe-americas website"> <a href="https://ssitvit.netlify.app/" class="web-link">IEEE SSIT-VIT</a> </i>
+        <i class="fas fa-globe-americas website" > <a href="https://www.ssitvit.tech/#home" class="web-link" style="text-decoration: none;">IEEE SSIT-VIT</a> </i>
         
-        <div class="socials">
-            <a href="https://www.facebook.com/SSITVIT" class="fab fa-facebook social"></a> 
-            <a href="https://www.linkedin.com/company/ieee-ssit-vit/" class="fab fa-linkedin social"></a>
-            <a href="https://www.instagram.com/ieeessit/" class="fab fa-instagram social"></a>
+        <div class="socials" >
+            <a href="https://www.facebook.com/SSITVIT" class="fab fa-facebook social" style="text-decoration: none;"></a> 
+            <a href="https://www.linkedin.com/company/ieee-ssit-vit/" class="fab fa-linkedin social" style="text-decoration: none;"></a>
+            <a href="https://www.instagram.com/ieeessit/" class="fab fa-instagram social" style="text-decoration: none;"></a>
         </div>
         
     </div>
     <script src="https://kit.fontawesome.com/82262f4dc4.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+    
 </body>
     <script src="./assets/js/index.js"></script>
     <script src="./assets/js/monthlyUpdates.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    
+
+
 </html>

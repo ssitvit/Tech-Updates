@@ -1,6 +1,6 @@
 var d = new Date();
 var monthName = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-document.getElementById("month").innerHTML = (monthName[d.getMonth()] + " Updates");
+document.getElementById("month").innerHTML = (monthName[d.getMonth()] + " Updates📰");
 
 // Make changes on monthlyUpdates only. You can add as many announcements as you wish. Keep it small.
 
